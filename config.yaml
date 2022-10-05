@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: "es-es"
-title: "Jorge de Mingo Gargallo"
+title: "Jorge de Mingo"
 theme: hugo-profile
 
 Paginate: 3
