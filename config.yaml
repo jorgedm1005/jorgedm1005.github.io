@@ -48,7 +48,7 @@ params:
   title: "Jorge de Mingo"
   description: Mi Portfolio
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/images/j.jpg"
+  favicon: "/j.jpg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -110,7 +110,7 @@ params:
     button:
       enable: true
       name: "Curriculum"
-      url: "https://mail.google.com/mail/u/0?ui=2&ik=2c0d6e2e1d&attid=0.1&permmsgid=msg-f:1731081882297467340&th=180609ccdf7481cc&view=att&disp=safe"
+      url: "/curriculum/curriculum"
       download: false
     socialLinks:
       fontAwesomeIcons:
@@ -123,7 +123,7 @@ params:
   about:
     enable: true
     title: "Sobre mi"
-    image: "/images/yo.jpg"
+    image: "/yo.jpg"
     content: |-
       Soy un desarrollador de aplicaciones WEB. La informática siempre me ha llamado mucho la atención, y estoy muy contento de poder dedicarme a ello. Actualmente estoy terminando el módulo de Desarrollo de Aplicaciones Web. 
       Actualmente estoy dedicandome a varios proyectos.
@@ -268,7 +268,7 @@ params:
     items:
       - title: Acme Corporation
         content: Esta es la primera página web que hicimos en un servidor. Puedes encontrar también el repositorio de GitHub.
-        image: /images/acme.png
+        image: /acme.png
         featured:
           name: Accede a la página.
           link: https://jorgedm1005.github.io/acme/
