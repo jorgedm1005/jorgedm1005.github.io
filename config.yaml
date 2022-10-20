@@ -103,7 +103,7 @@ params:
   hero:
     enable: true
     intro: "Hola, yo soy..."
-    title: "Jorge de Mingo."
+    title: "Jorge de Mingo"
     subtitle: "Soy un desarrollador de aplicaciones WEB"
     content: "Trabajo desarrolando diferentes tipos de aplicaciones web"
     image: /images/hero.svg
@@ -143,6 +143,9 @@ params:
         - "XSD"
         - "DTD"
         - "Json"
+
+     
+        
 
   # Experience
   experience:
@@ -242,15 +245,17 @@ params:
       #    enable: true
       #    url: "https://example.com"
 
-  # Achievements
-  #achievements:
-  #  enable: true
-  #  # title: "Custom Name"
-  #  items:
-  #    - title: Google kickstart runner
-  #      content: I solved all problems with optimal solution.
-  #      url: https://example.com
-  #    - title: Facebook Hackathon Winner
+   #Achievements
+  achievements:
+    enable: true
+    title: "Otras características"
+    items:
+      - title: Nivel Inglés C1
+        content: Después de toda mi infancia y adolescencia en el Colegio Británico de Aragón, pude desarrollar un buen nivel de inglés. También tuve la suerte de estar 3 semanas de intercambio en Boston, EEUU.
+      - title: Nivel Alemán A2
+        content: En el Colegio Británico de Aragon tambien pude estudiar alemán durante 3 cursos. Mantuve el contacto con esta familia, y me dieron la opción de pasar un mes entero de verano con ellos mejorando mi nivel.
+      
+      #- title: Facebook Hackathon Winner
   #      content: Developed a product using Artificial Intelligence.
   #    - title: Hugo Profile
   #      content: Developed a theme and getting 1K+ downloads per month.
@@ -264,7 +269,7 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Mis Proyectos"
     items:
       - title: Acme Corporation
         content: Esta es la primera página web que hicimos en un servidor. Puedes encontrar también el repositorio de GitHub.
@@ -280,7 +285,7 @@ params:
           #- icon: fa fa-envelope
           #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/jorgedm1005/acme.git
           #- icon: fab fa-twitter
           #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
@@ -314,7 +319,7 @@ params:
   #Contact
   contact:
     enable: true
-    #title: "Custom name"
+    title: "Contacto"
     content: Puedes contactar conmigo en cualquier momento e intentaré responder lo antes posible.
     email: jorgedmgargallo@gmail.com
     btnName: Mándame un correo
